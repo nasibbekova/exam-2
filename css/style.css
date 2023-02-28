@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+    gap: 30px;
+    margin-top: 80px;
+    background-color: #c4c4cc;
+    display: flex;
+    margin: 0 auto;
+}
+
+.box{
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.elem img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.boxes img{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    object-fit: contain;
+}
+
+.boxes{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.box__characters{
+    padding: 20px;
+}
+
+.boxes span{
+    font-size: 15px;
+    color: gray;
+}
+
+.boxes h1{
+    margin-top: 18px;
+}
+
+.boxes p{
+    margin-top: 8px;
+}
+
